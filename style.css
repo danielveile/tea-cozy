@@ -1,37 +1,47 @@
-html {
+* {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
-    text-align: horizontal;
+    text-align: center;
+    justify-content: center;
 }
+
 
 /*header*/
 header {
+    position: fixed;
+
+    z-index: 10;
     height: 69px;
     width: 100%;
-    display: inline-block;
-    margin: 10px;
+    
+    top: 0;
     border-bottom: 1px solid seashell;
-    position: fixed;
-}
-header img {
-    height: 50px;
+    align-items: center;
 }
 
-/*Body*/
-.mission {
-    height: 700px;
-    width: 1200px;
-    background-image: url("ressources/images/img-mission-background.png");
-    background-repeat: no-repeat;
-    justify-content: center;
+img {
+    height: 50px;
+    float: left;
+    margin: 10px;
+    align-items: center;
     display: flex;
 }
 
-.mission-text {
-    justify-content: center;
-    align-items: center;
-    background-color: black;
+ul {
+    float: right;
+}
+
+li {
+    display: inline-flex;
+    width: 150px;
+    text-decoration: underline;
+}
+
+/*Mission*/
+.mission {
+    position: relative;
+    top: 69px;
 }
