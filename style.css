@@ -40,7 +40,7 @@ li {
 }
 
 
-.mission {
+.mission-container {
     /* border: 1px solid seashell; */
     position: relative;
     display: flex;
@@ -56,5 +56,7 @@ li {
 
 .mission-text {
     border: 1px solid seashell;
+    display: flex;
     height: auto;
+    align-items: center;
 }
