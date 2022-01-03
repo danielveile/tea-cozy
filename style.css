@@ -51,12 +51,12 @@ li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1200px;
-    align-content: center;
+    align-items: center;
 }
 
 .mission-text {
-    border: 1px solid seashell;
-    display: flex;
     height: auto;
+    width: 100%;
     align-items: center;
+    background-color: black;
 }
