@@ -10,6 +10,7 @@ html, body {
 
 main {
     opacity: 0.9;
+    top: 69px;
 }
 
 h4 {
@@ -35,7 +36,6 @@ header {
 img {
     height: 50px;
     margin: 10px;
-    /* align-items: center; */
 }
 
 li {
@@ -46,12 +46,10 @@ li {
 
 
 .mission-container {
-    /* border: 1px solid seashell; */
     position: relative;
     display: flex;
     justify-content: center;
     height: 700px;
-    top: 69px;
     background-image: url("ressources/images/img-mission-background.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -71,7 +69,6 @@ li {
     width: 1000px;
     margin: 0 auto;
     position: relative;
-    top: 69px;
 }
 
 .teas {
