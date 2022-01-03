@@ -65,7 +65,7 @@ li {
 }
 
 .tea-container {
-    border: 1px solid seashell;
+    /* border: 1px solid seashell; */
     width: 1000px;
     margin: 0 auto;
     position: relative;
@@ -81,4 +81,27 @@ li {
     height: 200px;
     width: 300px;
     margin-bottom: 10px;
+}
+
+.locations {
+    background-position: center;
+    background-image: url("ressources/images/img-locations-background.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.location-container {
+    border: 1px solid seashell;
+    display: inline-flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.location {
+    border: 1px solid seashell;
+    background-color: black;
+    text-align: center;
+    width: 300px;
 }
