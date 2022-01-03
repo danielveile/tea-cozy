@@ -12,6 +12,10 @@ main {
     opacity: 0.9;
 }
 
+h4 {
+    margin-top: 0;
+}
+
 header {
     position: fixed;
     display: flex;
@@ -25,6 +29,7 @@ header {
     border-bottom: 1px solid seashell;
     align-items: center;
     justify-content: space-between;
+    background-color: black;
 }
 
 img {
@@ -56,7 +61,27 @@ li {
 
 .mission-text {
     height: auto;
-    width: 100%;
+    width: 1200px;
     align-items: center;
     background-color: black;
+}
+
+.tea-container {
+    border: 1px solid seashell;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: 69px;
+}
+
+.teas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.teas img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
 }
